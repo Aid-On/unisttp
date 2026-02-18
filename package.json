@@ -1,0 +1,34 @@
+{
+  "name": "@aid-on/unisttp",
+  "version": "0.1.0",
+  "description": "Unified STT (Speech-to-Text) provider for Cloudflare Workers AI / Groq",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "stt",
+    "speech-to-text",
+    "whisper",
+    "cloudflare",
+    "groq",
+    "workers-ai"
+  ],
+  "author": "Aid-On",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241218.0",
+    "typescript": "^5.7.2"
+  }
+}
