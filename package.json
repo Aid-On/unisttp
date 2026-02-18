@@ -1,6 +1,6 @@
 {
   "name": "@aid-on/unisttp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Unified STT (Speech-to-Text) provider for Cloudflare Workers AI / Groq",
   "type": "module",
   "main": "dist/index.js",
